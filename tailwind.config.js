@@ -21,6 +21,7 @@ module.exports = {
       colors: {
         mando: '#C5A974',
         primary: '#132034',
+        blur: '#C4C4C4',
       },
       fontFamily: {
         pop: ['Poppins', 'sans-serif'],
