@@ -11,18 +11,10 @@
 }
 
 @layer components {
-  .nav-item {
-    @apply hover:text-white hover:font-medium cursor-pointer transform transition-all ease-in;
-  }
   .my-grid {
     @apply grid md:grid-cols-2 gap-8;
   }
-
-  .lesson-btn {
-    @apply border-2 border-black hover:border-mando px-14 font-bold text-lg h-[2rem] hover:text-white hover:bg-mando transition-colors ease-in-out;
-  }
-
-  .lesson-card {
-    @apply flex flex-col xl:flex-row justify-between items-center border border-blur p-5 space-y-4 xl:space-y-0;
+  .nav {
+    @apply container h-full flex justify-between items-center px-5 md:p-0;
   }
 }

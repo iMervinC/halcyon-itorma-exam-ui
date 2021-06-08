@@ -12,7 +12,7 @@ export const PageWrap: FC<Layout> = ({ title, children }) => {
       <Head>
         <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="description" content="This is the way" />
+        <meta name="description" content="On our way" />
       </Head>
       <main className="container">{children}</main>
     </>
