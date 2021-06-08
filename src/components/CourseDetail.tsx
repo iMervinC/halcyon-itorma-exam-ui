@@ -3,7 +3,7 @@ import { CourseTnD } from '@/components/UI'
 
 const CourseDetail = () => {
   return (
-    <div className="flex flex-col space-x-4 md:flex-row px-5 md:px-0">
+    <div className="flex flex-col space-x-4 xl:flex-row px-5 md:px-0">
       <div className="md:w-[40%] md:max-w-[267px] mx-auto mb-5">
         <Image
           src="/img/Economics of Leadership.jpg"

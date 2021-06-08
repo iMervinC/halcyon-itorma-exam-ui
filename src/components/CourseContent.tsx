@@ -40,14 +40,14 @@ const Lessons = () => (
       {lessons.map((lesson, index) => (
         <li className="lesson-card">
           <div className="space-y-3">
-            <h4 className="font-bold text-[#000000bd] text-center md:text-left">
+            <h4 className="font-bold text-[#000000bd] text-center xl:text-left">
               Lesson {index + 1}: {lesson.title}{' '}
               <FontAwesomeIcon
                 icon={faCircle}
                 className="w-4 mr-2 text-green-400 inline"
               />
             </h4>
-            <div className="flex space-x-6 text-[#000000bd]">
+            <div className="flex space-x-5 text-[#000000bd]">
               <span>Completion:</span>
               <span>{lesson.completion} passed</span>
               <span> {lesson.date}</span>
