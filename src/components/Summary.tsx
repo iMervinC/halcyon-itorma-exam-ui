@@ -27,7 +27,7 @@ const Summary = () => {
         <span className="h-4 w-4 rounded-full  bg-gold transform hover:scale-150" />
       </div>
 
-      <CardContainer gold className="mx-6 group mt-6 transform translate-y-4">
+      <CardContainer gold className="mx-16 group mt-6 transform translate-y-4">
         <FontAwesomeIcon
           icon={faChartPie}
           size="lg"

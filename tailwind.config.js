@@ -21,10 +21,15 @@ module.exports = {
       colors: {
         gold: '#C5A974',
         nav: '#3D352E',
+        blu: '#1EA0D1',
       },
       fontFamily: {
         pop: ['Poppins', 'sans-serif'],
       },
+      boxShadow: {
+        blue: ' 0px 0px 10px 0px #1EA0D1',
+      },
+     
     },
   },
   variants: {
