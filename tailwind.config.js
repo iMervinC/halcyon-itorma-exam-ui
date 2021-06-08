@@ -19,6 +19,7 @@ module.exports = {
         ],
       },
       colors: {
+        gold: '#C5A974',
         nav: '#3D352E',
       },
       fontFamily: {

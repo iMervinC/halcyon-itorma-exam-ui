@@ -15,6 +15,9 @@
     @apply grid md:grid-cols-2 gap-8;
   }
   .nav {
-    @apply container h-full flex justify-between items-center px-5 md:p-0;
+    @apply container h-full flex justify-between items-center px-5;
+  }
+  .card {
+    @apply rounded-lg bg-white p-3 shadow-lg;
   }
 }

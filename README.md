@@ -1,6 +1,5 @@
-# Web UI - A | 🤖 The Mandalorian
+# Mobile UI - A
 
-Fully Responsive UI 
 ## Tech
 
 - Next.js
