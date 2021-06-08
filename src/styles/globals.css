@@ -14,4 +14,7 @@
   .nav-item {
     @apply hover:text-white hover:font-medium cursor-pointer transform transition-all ease-in;
   }
+  .my-grid {
+    @apply grid md:grid-cols-2 gap-8;
+  }
 }

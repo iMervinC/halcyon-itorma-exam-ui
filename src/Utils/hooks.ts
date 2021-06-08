@@ -2,18 +2,6 @@ import { useState, useEffect } from 'react'
 
 type windowHook = () => { width: number; height: number }
 
-// // Usage
-// function App() {
-//   const size = useWindowSize();
-
-//   return (
-//     <div>
-//       {size.width}px / {size.height}px
-//     </div>
-//   );
-// }
-
-// Hook
 const useWindowSize: windowHook = () => {
   // Initialize state with undefined width/height so server and client renders match
   const [windowSize, setWindowSize] = useState({

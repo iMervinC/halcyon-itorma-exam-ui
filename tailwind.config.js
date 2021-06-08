@@ -10,6 +10,14 @@ module.exports = {
       center: true,
     },
     extend: {
+      fontSize: {
+        title: [
+          '24px',
+          {
+            lineHeight: '24px',
+          },
+        ],
+      },
       colors: {
         mando: '#C5A974',
         primary: '#132034',

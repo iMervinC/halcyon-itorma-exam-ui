@@ -43,7 +43,7 @@ const NavList = () => (
 )
 
 const NavMobile = () => (
-  <div className="absolute bg-primary w-full py-10">
+  <div className="absolute bg-primary w-full py-10 z-10">
     <ul className=" flex flex-col justify-between items-center space-y-5 ml-auto text-[#eeeeee94] uppercase">
       <li className="nav-item">
         <span className="text-mando">Welcome back,</span> Din Djarin!
